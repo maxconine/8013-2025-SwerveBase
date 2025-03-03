@@ -57,8 +57,8 @@ public class ControlBoard {
             forwardAxis = getRightThrottle();
             strafeAxis = getRightYaw();
         } else {
-            forwardAxis = m_driver.getRawAxis(2);
-            strafeAxis = m_driver.getRawAxis(1);
+            forwardAxis = m_driver.getRawAxis(2) ;//* .25; //TODO:: DRIVER SPEED LIMIT
+            strafeAxis = m_driver.getRawAxis(1) ;//* .25;
         }
 
         SmartDashboard.putNumber("Raw Y", forwardAxis);

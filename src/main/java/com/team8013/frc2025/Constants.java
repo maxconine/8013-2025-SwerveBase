@@ -181,7 +181,10 @@ public class Constants {
          * 
          * Zero them so that odometry is x positive going forwards and y positive going
          * left
-         * 
+         *         public static final double FL_AngleOffset = 335.3027;
+        public static final double FR_AngleOffset = 89.1211;
+        public static final double BL_AngleOffset = 191.3379;
+        public static final double BR_AngleOffset = 73.2129;
          * 
          */
 
